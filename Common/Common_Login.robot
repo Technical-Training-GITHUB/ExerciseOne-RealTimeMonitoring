@@ -19,11 +19,3 @@ Enter Username  [Arguments]  ${username}
 Enter Password  [Arguments]  ${password}
     Wait Until Page Contains Element  ${TXT_PASSWORD}
     Input Password    ${TXT_PASSWORD}  ${password}
-
-Click Stock
-    Wait Until Page Contains Element  ${BTN_STOCK}
-     Click Element   ${BTN_STOCK}
-
-Click RTM
-      Sleep  2s
-     Click Element  ${BTN_REALTIMEMONITORING}

@@ -9,7 +9,5 @@ TC-001
     Enter Username    rueljsaunar@yahoo.com
     Enter Password    77gsitechteam
     Click LoginBtn
-    Click Stock
-    Click RTM
 
 
