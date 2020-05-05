@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20200505 11:22:15.778" generator="Robot 3.1.2 (Python 2.7.15 on win32)">
+<suite source="C:\Users\aren\Music\ExerciseOne_RealTimeMonitoring\Tests\Exercise_1.robot" id="s1" name="Exercise 1">
+<test id="s1-t1" name="TC-001">
+<kw type="setup" name="Open Browser Test Setup" library="Common_Keywords">
+<arguments>
+<arg>https://www.investagrams.com/Login/</arg>
+</arguments>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200505 11:22:16.036" level="INFO">Opening browser 'chrome' to base url 'https://www.investagrams.com/Login/'.</msg>
+<status status="PASS" endtime="20200505 11:22:21.432" starttime="20200505 11:22:16.036"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20200505 11:22:23.615" starttime="20200505 11:22:21.432"></status>
+</kw>
+<status status="PASS" endtime="20200505 11:22:23.615" starttime="20200505 11:22:16.035"></status>
+</kw>
+<kw name="Enter Username" library="Common_Login">
+<arguments>
+<arg>rueljsaunar@yahoo.com</arg>
+</arguments>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<arguments>
+<arg>${TXT_USERNAME}</arg>
+</arguments>
+<status status="PASS" endtime="20200505 11:22:23.634" starttime="20200505 11:22:23.615"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${TXT_USERNAME}</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20200505 11:22:23.634" level="INFO">Typing text 'rueljsaunar@yahoo.com' into text field 'xpath=/html/body/div[4]/div[2]/div/div[1]/div/div/div[2]/form/div[1]/input'.</msg>
+<status status="PASS" endtime="20200505 11:22:23.855" starttime="20200505 11:22:23.634"></status>
+</kw>
+<status status="PASS" endtime="20200505 11:22:23.855" starttime="20200505 11:22:23.615"></status>
+</kw>
+<kw name="Enter Password" library="Common_Login">
+<arguments>
+<arg>77gsitechteam</arg>
+</arguments>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<arguments>
+<arg>${TXT_PASSWORD}</arg>
+</arguments>
+<status status="PASS" endtime="20200505 11:22:23.867" starttime="20200505 11:22:23.856"></status>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${TXT_PASSWORD}</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20200505 11:22:23.868" level="INFO">Typing password into text field 'xpath=/html/body/div[4]/div[2]/div/div[1]/div/div/div[2]/form/div[2]/div/input'.</msg>
+<status status="PASS" endtime="20200505 11:22:24.184" starttime="20200505 11:22:23.867"></status>
+</kw>
+<status status="PASS" endtime="20200505 11:22:24.184" starttime="20200505 11:22:23.855"></status>
+</kw>
+<kw name="Click LoginBtn" library="Common_Login">
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>${BTN_LOGIN}</arg>
+</arguments>
+<msg timestamp="20200505 11:22:24.184" level="INFO">Clicking button 'xpath=/html/body/div[4]/div[2]/div/div[1]/div/div/div[2]/form/button'.</msg>
+<status status="PASS" endtime="20200505 11:22:24.373" starttime="20200505 11:22:24.184"></status>
+</kw>
+<status status="PASS" endtime="20200505 11:22:24.374" starttime="20200505 11:22:24.184"></status>
+</kw>
+<status status="PASS" endtime="20200505 11:22:24.375" critical="yes" starttime="20200505 11:22:16.034"></status>
+</test>
+<status status="PASS" endtime="20200505 11:22:24.382" starttime="20200505 11:22:15.779"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Exercise 1" pass="1">Exercise 1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
