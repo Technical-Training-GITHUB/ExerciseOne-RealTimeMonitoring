@@ -9,6 +9,7 @@ ${BTN_STOCK}   xpath=xpath=/html/body/div[2]/nav[2]/div/div[3]/div[1]/ul/li[2]/a
 ${BTN_REALTIMEMONITORING}   xpath=/html/body/div[2]/nav[2]/div/div[3]/div[1]/ul/li[2]/div/a[1]
 
 *** Keywords ***
+
 Click LoginBtn
     Click Button  ${BTN_LOGIN}
 
