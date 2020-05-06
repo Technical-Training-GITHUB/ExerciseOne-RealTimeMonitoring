@@ -22,4 +22,9 @@ TST-003
     Click LoginBtn
     Click Stock
     Click RTM
-    Get Data Values  Stock
+    Get Data Values    Stock
+    Get Data Values    Open
+    Get Data Values    High
+    Get Data Values    Low
+    Get Data Values    Last
+    Get Data Values    Volume
