@@ -23,13 +23,4 @@ TST-003
     Click LoginBtn
     Click Stock
     Click RTM
-    Get Data Values  1
-    Get Data Values  2
-    Get Data Values  3
-    Get Data Values  4
-    Get Data Values  5
-    Get Data Values  6
-    Get Data Values  7
-    Get Data Values  8
-    Get Data Values  9
-    Get Data Values  10
+    Get Data
